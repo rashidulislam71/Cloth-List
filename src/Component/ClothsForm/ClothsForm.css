@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1.clothTitle {
+    padding: 14px;
+    text-align: center;
+    color: rgb(120, 150, 206);
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+}
+
+.clothContainer{
+    margin: auto;
+    max-width: 1400px;
+    background-color: rgb(241, 238, 245);
+    position: relative;
+    padding: 40px;
+}
+
+.clothForm{
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.formInfo{
+    padding: 20px;
+    border: 1px solid rgb(233, 194, 190) ;
+    font-size: 18px;
+    width: 480px;
+    box-shadow: 3px 3px 10px rgb(163, 135, 135);
+    border-radius: 10px;
+    position: relative;
+}
+
+label{
+    color: rgb(138, 65, 223);
+    font-style: italic;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input [type="radio"],
+textarea,
+select,
+option
+
+{
+    outline: none;
+    margin: 5px 0px 20px 0px;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 6px 10px;
+    box-shadow: 2px 2px 10px indigo;
+    font-size: 16px;
+}
+
+span{
+    margin: 5px;
+    color: darkslateblue;
+}
+
+.checkboxInfo{
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    margin: 0px 15px;
+}
+
+.clothAddBtn{
+    margin: 20px 0px 0px 0px;
+    position: absolute;
+    bottom: 43px;
+    right: 20px;
+}
+
+
+
+.clothAddBtn button,
+.removeAllCloth button
+{
+    padding: 5px 30px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:  rgb(204, 162, 162);
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.clothAddBtn button:hover,
+.removeAllCloth button:hover
+{
+    box-shadow: 3px 3px 10px rgb(70, 61, 61);
+} 
+
+
+
+/*-------- Cloth Table Start -----------*/
+
+.clothsTable,
+.noClothADD
+{
+    padding: 20px;
+    box-shadow: 3px 3px 10px rgb(163, 135, 135);
+    border-radius: 1px;
+    border: 1px solid rgb(233, 194, 190) ;
+}
+
+.noClothADD{
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(73, 70, 70);
+}
+
+.tableInfo th{
+    color: rgb(34, 32, 32);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.tableInfo, th ,td{
+    border: 1px solid rgb(233, 194, 190);
+    border-collapse: collapse;
+    padding: 6px ;
+}
+
+td {
+    padding: 3px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.removeAllCloth {
+    margin-top: 20px;
+} 
+
